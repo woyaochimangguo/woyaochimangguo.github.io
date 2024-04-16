@@ -4,6 +4,7 @@ description: 'Only hardworking will lead to success'
 keyword: 'student,learner,crypto'
 url: 'woyaochimangguo.github.io' # your host
 
+theme: jekyll-theme-chirpy
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
 # if you're using GitHub Pages, set baseurl to your blog's .
