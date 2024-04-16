@@ -2,26 +2,6 @@
 
 基于Jekyll的博客主题模板，简洁轻量。
 
-另外，还有此主题的[Ghost版本](https://github.com/eastpiger/ghost-theme-H2O) by [eastpiger](https://github.com/eastpiger)
-
-### Preview
-
-#### [在线预览 Live Demo →](http://liaokeyu.com/)
-
-![](screenshot/jekyll-theme-h2o-realhome.jpg)
-
-![](screenshot/jekyll-theme-h2o-realm.png)
-
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
-
-If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![](screenshot/1494404591.png)
-
-Using your smartphone to scan the QR Code
-
 ### Features 特性
 
 #### CN
@@ -411,44 +391,6 @@ postPatterns: 'circuitBoard'
 ```
 
 值得注意的是，css及js的源码都在 `dev` 文件夹中，每一次保存 gulp 都会对它们进行处理并保存到 `assets` 文件夹以供 `_site` 上线环境使用。
-
-#### Disqus
-
-[Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
-
-在配置文件 `_config.yml` 中找到comments的相关配置，设置 `disqus` 参数为 `true` 打开评论功能（ `false` 为关闭），并且设置 `disqus_url`。
-
-```
-# Comments
-comments:
-	disqus: true
-	disqus_url: 'https://your-disqus-username.disqus.com/embed.js'
-```
-
-注：`disqus` 默认值为 `false`
-
-#### Share.js
-
-为了让文章更方便地分享，使用了第三方分享插件[Share.js](https://github.com/overtrue/share.js)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
-
-```
-# Share
-social-share: true # 开启或者关闭分享功能
-social-share-items: ['wechat', 'weibo', 'douban','twitter']
-```
-
-### Contribution 贡献
-
-Any types of contribution are welcome. Thanks.
-
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```
-
-#### 感谢参与代码贡献的伙伴
-
-- [Ray-Eldath](https://github.com/Ray-Eldath)
-- [sctop](https://github.com/sctop)
-- [bananaappletw](https://github.com/bananaappletw)
-- [moycat](https://github.com/moycat)
 
 ### License 许可证
 
