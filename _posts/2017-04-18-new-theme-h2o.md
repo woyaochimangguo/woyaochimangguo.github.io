@@ -86,7 +86,7 @@ tags: Github_Pages JeKyll Markdown
 接下来就是使用这两个工具搭建一个属于我们自己的博客
 # 1.创建一个Github库并且开启Github Pages
 首先我们用自己的 Github 账号创建一个新的库（repository），这个库的名称有固定的格式： `username.github.io`，其中 username 必须是 Github 账户的用户名，.github.io 是固定的，这个地址将会成为个人站点的网站地址。另外，我们可以勾选Initialize this repository with a README，让仓库自动创建一个 README.md 文件
-![](https://github.com/woyaochimangguo/woyaochimangguo.github.io/blob/main/screenshot/pages.png)
+![](https://github.com/woyaochimangguo/woyaochimangguo.github.io/blob/main/screenshot/pages.png?raw=true)
 创建完成后，进入所创建的库，在settings页面找到GitHub Pages进行设置，如果你的库有按照上述方式进行命名，则它会自动进行设置，设置成功后会该页面出现绿色的提示，成功后可选择Choose a theme选择一个主题。
 到这一步，我们就成功完成了 Github Pages 的配置，接下来我们就需要安装 Jekyll ，上网找一个 Jekyll 的博客模板，再将自己修改后的模板上传至这个库中就可以完成我们的个人博客了。
 
@@ -135,7 +135,7 @@ jekyll的目录结构大概是
 
 几个主要文件的参数在上面的 Github 页面上有很清楚的说明。在修改模板中，我暂时只改了_config.yml、index.html，在../assets/img里面加上了一些图片，将../_posts里的文章修改整理了一下。
 为了看到博客呈现出来的效果，就要用上我们上一步安装的Jekyll，先打开命令行，将路径修改至博客模板所在路径，执行命令jekyll server，复制 `http://127.0.0.1:4000/` 到浏览器打开，就能看见本地的博客了
-![](https://github.com/woyaochimangguo/woyaochimangguo.github.io/blob/main/screenshot/blogsee.png)
+![](https://github.com/woyaochimangguo/woyaochimangguo.github.io/blob/main/screenshot/blogsee.png?raw=true)
 
 # 4.博客文件的上传
 将文件上传至 Github 上的方法就不多赘述，我使用的是 GitHub 桌面版，操作起来比较简单，具体操作可以参考[这里](https://zhuanlan.zhihu.com/p/28321740)。
